@@ -1,1 +1,11 @@
+language: c
 
+before_install:
+    - sudo apt-get -qq update
+    - sudo apt-get install -y git make gcc g++ python3-ply ncurses-dev python-yaml python2
+    - wget https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.9/zephyr-sdk-0.9-setup.run
+    - chmod +x zephyr-sdk-0.9-setup.run
+    - yes | sudo ./zephyr-sdk-0.9-setup.run
+env:
+    - ZEPHYR_GCC_VARIANT=zephyr
+    - ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk/
