@@ -6,6 +6,7 @@ before_install:
     - wget https://nexus.zephyrproject.org/content/repositories/releases/org/zephyrproject/zephyr-sdk/0.9/zephyr-sdk-0.9-setup.run
     - chmod +x zephyr-sdk-0.9-setup.run
     - yes | sudo ./zephyr-sdk-0.9-setup.run
+
 env:
     - ZEPHYR_GCC_VARIANT=zephyr
     - ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk/
