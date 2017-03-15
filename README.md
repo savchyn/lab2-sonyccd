@@ -8,3 +8,5 @@ You will be using a template workspace for Zephyr. These templates will be the f
 - [ ] Run it on QEMU
 - [ ] Run it on Arduino
 - [ ] Change the program to print "hello world" every second using a single task
+
+# Usefull links
