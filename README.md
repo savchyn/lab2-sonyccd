@@ -11,6 +11,12 @@ You will be using a template workspace for Zephyr. These templates will be the f
 
 # Usefull links
 
+## Zephyr?
+
+* [What is Zephyr](https://www.zephyrproject.org/about/what-is-zephyr-project)
+* [Why Zephyr](https://www.youtube.com/watch?v=JEpY_ETJ_jE)
+* [How does it work?](https://www.youtube.com/watch?v=fpKQKIU2800)
+
 ## Threads
 * [Lifecycle](https://www.zephyrproject.org/doc/kernel/threads/lifecycle.html)
 * [Schedualing](https://www.zephyrproject.org/doc/kernel/threads/scheduling.html)
