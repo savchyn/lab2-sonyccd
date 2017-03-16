@@ -20,3 +20,5 @@ You will be using a template workspace for Zephyr. These templates will be the f
 ## Threads
 * [Lifecycle](https://www.zephyrproject.org/doc/kernel/threads/lifecycle.html)
 * [Schedualing](https://www.zephyrproject.org/doc/kernel/threads/scheduling.html)
+
+## [API](https://www.zephyrproject.org/doc/api/api.html)
